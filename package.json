@@ -1,0 +1,19 @@
+{
+  "name": "c2pa_msl_demo",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sign": "node sign_media_all_ai.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "koffi": "^3.3.5"
+  },
+  "allowScripts": {
+    "koffi@3.3.5": true
+  }
+}
